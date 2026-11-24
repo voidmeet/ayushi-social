@@ -24,6 +24,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Zero-budget architecture direction: **APPROVED** (2026-11-24). Reference discovery is Claude's job (user instruction).
 - Phase 5 audit done (docs/TOOL_AND_SKILL_AUDIT.md): INSTALL HyperFrames + ffmpeg-skill; faster-whisper; ADAPT ghost-editor, Barty-Bart sound-effects, claude-shorts ideas; REJECT MotionClone x2, mattypark (no licence), ychoi-kr, impertio. Not installed yet.
 - Stage 1 smoke test (2026-11-24): stack installed (pinned) and render ✅, QC ✅, Drive binary download ✅; Hind Vadodara chosen, Mukta Vaani rejected (ત્ર shaping bug); Whisper ✅ after user-approved network update (Hugging Face + YouTube hosts added to env 'Ayushi<>socials'). See docs/SMOKE_TEST_REPORT.md.
+- Studio workspace location (user, 2026-11-24): **inside "Ayushi <> Social media" (owned by meetlearns)**. Connected connector account = cynoimpakt (viewer only there). Recommended least-privilege setup: meetlearns creates an empty `GUJARATI_CREATOR_STUDIO` subfolder and shares ONLY that subfolder with cynoimpakt as Editor, so raw footage stays read-only. Note: files cynoimpakt creates are owned by, and count against, cynoimpakt's 15 GB unless ownership is transferred.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
