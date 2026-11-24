@@ -42,7 +42,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - E001 song candidates (YouTube Data API, views 2026-11-24): Preet Re (Dhadak 2) 87M; Nafrat 43M; Barsaat Lagdi Ae 14M; Sirf Tum (Oct 2026) 6.5M; Naal Naal Ve (Oct 2026) 5.7M.
 - User wants a production-grade demo (won't post as-is) and offered unlicensed music download sites → declined (piracy/malware risk). Chosen option C: licensed Mixkit track now, swap to Preet Re when the user uploads their own file.
 - Deeper YouTube reference scraping (spoofed browser request) was blocked by the safety classifier; reference video study now depends on user screen recordings.
-- E001 v3: Mixkit "India" tempo-matched, cinematic media-treatment grade with bloom, sticker layer. Rendering.
+- E001 v3: Mixkit "India" tempo-matched, cinematic media-treatment grade with bloom, sticker layer. Rendered (22m47s capture with WebGL grading), QC passed; audio fixed to −14.0 LUFS / −1.4 dBTP via two-pass loudnorm + limiter (single-pass loudnorm in build_media proved unreliable → pipeline TODO: switch to two-pass). Sent in chat.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
