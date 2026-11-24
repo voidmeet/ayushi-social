@@ -20,6 +20,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Publishing (2026-11-24): **user posts manually.** System only suggests day/time per edit in the publish package. Initial default: Mon/Wed/Fri/Sun + 1 flexible trend slot, 7–10 pm IST; refine with analytics after launch. No auto-publishing integration needed for now.
 - Events (accepted 2026-11-24): **festival calendar yes**. Next target: Uttarayan (14 Jan 2027). Navratri 2026 footage held for throwback/next season. Long-form compilations deferred until after launch.
 - Phase 3 complete. Export profiles: IG Reels 1080×1920 H.264 high, AAC 48kHz, source fps (≤60), loudness ≈ -14 LUFS; YT Shorts same master with Shorts-specific safe areas.
+- **Budget: ₹0/month** (2026-11-24). Claude subscription + open-source + no-billing free tiers only. Proposal: docs/ZERO_BUDGET_ARCHITECTURE_PROPOSAL.md (awaiting approval).
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
