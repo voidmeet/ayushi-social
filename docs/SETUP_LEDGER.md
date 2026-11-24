@@ -5,6 +5,8 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Raw footage parent folder: Google Drive folder link received (Step 1)
 - Inspiration creators: "Khushi", "Rajvee". Profiles NOT confirmed yet
 - 15 candidate repos for the Phase 5 audit
+- Creator social accounts: **none exist yet** (2026-11-24). Brand name/handle to be decided later.
+- Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
 | Connection | Status | Evidence |
@@ -33,7 +35,12 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - FIXED: processing runs in the cloud, never depends on the user's PC
 - RECOMMENDED (onboarding): claude.ai Google Drive connector for inspection
 - RECOMMENDED (production, Phase 7): dedicated Google Cloud project + OAuth (read-only on source folder; write only to studio folders); secrets in a secrets manager
-## 6. Missing: all Phase 2–3 info; video-level metadata (duration/fps/resolution) needs ffprobe in the worker
+## 6. Implications recorded
+- No own-audience analytics until launch, so early creative decisions rely on the reference research (Phase 4) and the creator's approval.
+- Branding (watermark, handle overlays, intro/outro name cards) stays a swappable template variable. Edits must not burn in a name yet.
+- Content backlog needs an "evergreen vs time-sensitive" tag (e.g. Navratri 2026 footage dates quickly; best kept for next season or posted as throwback).
+
+## 6b. Missing: all Phase 2–3 info; video-level metadata (duration/fps/resolution) needs ffprobe in the worker
 ## 7. Awaiting approval / recorded defaults
 - DEFAULT: raw folder stays read-only (safest). GUJARATI_CREATOR_STUDIO/ will go in a Drive location we control, decided in Phase 8.
 ## 8. Completed: [x] Step 1 link received · [x] access check · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
