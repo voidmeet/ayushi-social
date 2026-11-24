@@ -1,0 +1,30 @@
+{
+  "edit_id": "E001",
+  "title": "He wrote us a love letter, so I wrote one back",
+  "genre": "03_Concerts_Events",
+  "event": "Darshan Raval - Love Letters India Tour 2026",
+  "platform": ["Instagram Reels", "YouTube Shorts"],
+  "duration_s": 24.6,
+  "concept": "Treat the concert as a reply to Darshan's 'Dear You' tour letter: handwritten letter lines guide a POV story from ticket to pyro climax. Taps into the 'Blue Family' fandom and the tour's own blue/handwritten branding.",
+  "target_audience": "Darshan Raval fans (Blue Family), Gujarati/Indian 18-30 concert-goers, people who attended or missed the tour",
+  "hook": "Frame 0 = CO2 jet / pyro spectacle + text 'He wrote us a love letter…' (spectacle-first, curiosity line)",
+  "reference_basis": ["GEN-1 Coldplay wristband POV (77M)", "GEN-4 GRWM→venue arc (9.6M)", "GEN-7 'when he sings this line live' Blue Family serif title (ER 3.1%)", "GCR-070 handwritten title signature", "GCR-120 open on the peak (bookend)", "GCR-068 concert story intercut"],
+  "segments": [
+    {"n": 1, "clip": "C031", "in": 2.6, "dur": 1.6, "text": "He wrote us a love letter…", "style": "pill"},
+    {"n": 2, "clip": "C019", "in": 0.2, "dur": 1.8, "text": "…so I wrote one back 💌", "style": "pill", "hand": "Dear Darshan,"},
+    {"n": 3, "clip": "C024", "in": 0.0, "dur": 3.0, "hand": "you said “see you there!”"},
+    {"n": 4, "clip": "C020", "in": 0.5, "dur": 2.2, "hand": "so here I am 🌅"},
+    {"n": 5, "clip": "C023", "in": 0.05, "dur": 1.2, "hand": "with my people 🤍"},
+    {"n": 6, "clip": "C041", "in": 1.0, "dur": 2.2, "hand": "then the lights went down…"},
+    {"n": 7, "clip": "C028", "in": 1.0, "dur": 2.0, "chapter": "Love Letters"},
+    {"n": 8, "clip": "C016", "in": 0.5, "dur": 2.2, "chapter": "Chapter 1 · Out of Control"},
+    {"n": 9, "clip": "C030", "in": 0.2, "dur": 2.2, "chapter": "Chapter 2 · Dard 🥲"},
+    {"n": 10, "clip": "C036", "in": 1.5, "dur": 3.0, "pill": "blue family, assemble 💙"},
+    {"n": 11, "clip": "C031", "in": 11.9, "dur": 3.4, "hand": "thank you for the magic.\nAlways, yours 💙", "audio": "synced (own audio)"}
+  ],
+  "audio": {"bed": "C036 live audio 0–9.5 s → crossfade → C031 live audio 0–15.3 s (timeline 9.3–24.6); final segment lip-synced to its own audio", "mastering": "loudnorm -14 LUFS, true-peak -1 dBTP", "publishing_note": "Live concert audio contains copyrighted performance. For posting, mute and add the trending Darshan Raval track in-app (licensed by the platform)."},
+  "grade": "Unified cool-blue night look matching tour branding; protect skin; mild sharpen for 720p→1080p upscale",
+  "typography": {"pill": "small white rounded pill, top third, sentence case + emoji", "hand": "Caveat (handwritten) white with soft shadow — love-letter voice", "chapter": "Playfair Display Italic, letter-spaced, like stage chapter cards"},
+  "voiceover": "Optional: creator reads the letter lines in her own voice (script provided)",
+  "known_limits": ["Source clips are 720p phone exports; original iPhone MOVs (higher quality) not yet accessible (Drive connector 10 MB limit)"]
+}

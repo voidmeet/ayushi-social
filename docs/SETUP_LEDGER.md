@@ -31,6 +31,10 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - YouTube Data API key: user added as env network secret (www.googleapis.com, header X-Goog-Api-Key, path /youtube/v3/). ✅ Tested.
 - Phase 4 batch 2: **134 verified references total** (dance 40, garba 20, concerts 16, lifestyle 27, aesthetics 31); gap 66. Master sheet re-uploaded (old one renamed "superseded", not deleted).
 - Drive connector **file-reference uploads from disk work** (81 KB CSV ✅). Candidate route for draft MP4s; size limit still to test.
+- Raw footage (2026-11-24): Drive connector download limit **10 MB** → 34/99 clips fetched (720p phone exports, mostly silent); **65 clips (11.1 GB, all original iPhone MOVs) blocked**. Upload limit also 10 MB (≈3 MB per request), so draft videos can't go to Drive via connector. Fix proposed: Drive API v3 with the same free key (download) + alternative delivery for drafts.
+- Footage genres (34 clips): concert, Darshan Raval Love Letters India Tour 2026 (13 clips, complete story); Navratri (8); daily life (13). Several selfie clips stored rotated 90°/180°; pipeline must correct.
+- Genre research: 8 viral concert reels (2–77M views) analysed for E001.
+- **E001 draft v1 rendered** ("He wrote us a love letter, so I wrote one back"), 24.6 s, QC passed (1080×1920/30fps, no black/frozen frames, −14.1 LUFS). Package in Drive 06_DRAFTS_FOR_REVIEW/E001_love_letters_v1 (minus videos); videos sent in chat. Awaiting review.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)

@@ -4,3 +4,8 @@ work/
 *.mp4
 *.mov
 !fixtures/*.mp4
+*.wav
+edits/*/out/
+edits/*/.hyperframes/
+assets/fonts/NotoColorEmoji.ttf
+edits/*/assets/fonts/NotoColorEmoji.ttf
