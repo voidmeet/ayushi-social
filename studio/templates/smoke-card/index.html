@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="gu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: "Hind Vadodara"; src: url("assets/fonts/HindVadodara-Bold.ttf") format("truetype"); font-weight: 700; }
+      @font-face { font-family: "Playfair Display"; src: url("assets/fonts/PlayfairDisplay[wght].ttf") format("truetype"); font-weight: 400 900; }
+      :root { --ground: #1a0f14; --ink: #fff6ec; --accent: #f2b544; --rose: #e0567a; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ground); }
+      #root { width: 100%; height: 100%; position: relative;
+        background: radial-gradient(120% 80% at 50% 35%, #4a1c2c 0%, var(--ground) 70%); }
+      .clip { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+      #gu { font-family: "Hind Vadodara", sans-serif; font-weight: 700; font-size: 150px; color: var(--accent); line-height: 1.25; text-align: center; }
+      #gu2 { font-family: "Hind Vadodara", sans-serif; font-weight: 700; font-size: 96px; color: var(--ink); margin-top: 24px; text-align: center; }
+      #latin { font-family: "Playfair Display", serif; font-style: normal; font-weight: 600; font-size: 64px; color: var(--ink); opacity: 0.9; margin-top: 56px; letter-spacing: 0.02em; }
+      #rule { width: 0; height: 4px; background: var(--rose); margin-top: 40px; border-radius: 2px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="5" data-width="1080" data-height="1920" data-fps="30">
+      <div id="card" class="clip" data-start="0" data-duration="5" data-track-index="0">
+        <div id="gu">કેમ છો?</div>
+        <div id="gu2">નવરાત્રી ૨૦૨૬ ✨</div>
+        <div id="rule"></div>
+        <div id="latin">Gujju Creator Studio · smoke test</div>
+      </div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#gu", { opacity: 0, y: 60, filter: "blur(12px)" }, { opacity: 1, y: 0, filter: "blur(0px)", duration: 0.8, ease: "power3.out" }, 0.2)
+        .fromTo("#gu2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" }, 0.7)
+        .to("#rule", { width: 420, duration: 0.6, ease: "power2.inOut" }, 1.2)
+        .fromTo("#latin", { opacity: 0 }, { opacity: 0.9, duration: 0.6 }, 1.5)
+        .to("#card", { scale: 1.04, duration: 3.3, ease: "none" }, 1.7)
+        .to("#card", { opacity: 0, duration: 0.4 }, 4.6);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

@@ -23,6 +23,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - **Budget: ₹0/month** (2026-11-24). Claude subscription + open-source + no-billing free tiers only. Proposal: docs/ZERO_BUDGET_ARCHITECTURE_PROPOSAL.md (awaiting approval).
 - Zero-budget architecture direction: **APPROVED** (2026-11-24). Reference discovery is Claude's job (user instruction).
 - Phase 5 audit done (docs/TOOL_AND_SKILL_AUDIT.md): INSTALL HyperFrames + ffmpeg-skill; faster-whisper; ADAPT ghost-editor, Barty-Bart sound-effects, claude-shorts ideas; REJECT MotionClone x2, mattypark (no licence), ychoi-kr, impertio. Not installed yet.
+- Stage 1 smoke test (2026-11-24): stack installed (pinned) and render ✅, QC ✅, Drive binary download ✅; Hind Vadodara chosen, Mukta Vaani rejected (ત્ર shaping bug); Whisper ❌ blocked (huggingface.co not allowed). See docs/SMOKE_TEST_REPORT.md.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
