@@ -13,6 +13,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Do-not-use list (2026-11-24): **no user-imposed creative restrictions**. Full creative freedom on styles, colours, fonts and effects. Baseline guardrails still apply from the master brief: preserve her natural appearance (no heavy beauty filters or likeness changes without permission), keep her Gujarati meaning intact, use only properly licensed music in exported files, and keep cultural content respectful.
 - Consent (2026-11-24): creator **consents** to AI analysis, transcription and editing of her footage and voice (she proposed the project).
 - Voiceover: **her own real voice only.** No synthetic or cloned voice and no likeness alteration. Workflow: each edit ships with a timed VO script; she records it; the recording is uploaded and synced into the final edit.
+- Platforms (approved 2026-11-24): **Instagram Reels = primary; YouTube Shorts = same edits** with platform-specific safe areas and captions. TikTok excluded (banned in India). Long-form YouTube compilations deferred. Default export 1080×1920 9:16.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
