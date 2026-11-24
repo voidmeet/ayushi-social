@@ -18,6 +18,8 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Length (accepted 2026-11-24): dance/trend 7–15s · garba/Navratri/concerts 15–30s · vlogs/outings/fashion 30–60s · >60s only for special edits.
 - Multi-edit (approved 2026-11-24): **yes**, max 2–3 edits per shoot, each with a distinct hook/story/style; space ≥1 week apart in the schedule.
 - Publishing (2026-11-24): **user posts manually.** System only suggests day/time per edit in the publish package. Initial default: Mon/Wed/Fri/Sun + 1 flexible trend slot, 7–10 pm IST; refine with analytics after launch. No auto-publishing integration needed for now.
+- Events (accepted 2026-11-24): **festival calendar yes**. Next target: Uttarayan (14 Jan 2027). Navratri 2026 footage held for throwback/next season. Long-form compilations deferred until after launch.
+- Phase 3 complete. Export profiles: IG Reels 1080×1920 H.264 high, AAC 48kHz, source fps (≤60), loudness ≈ -14 LUFS; YT Shorts same master with Shorts-specific safe areas.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
@@ -55,4 +57,4 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 ## 6b. Missing: all Phase 2–3 info; video-level metadata (duration/fps/resolution) needs ffprobe in the worker
 ## 7. Awaiting approval / recorded defaults
 - DEFAULT: raw folder stays read-only (safest). GUJARATI_CREATOR_STUDIO/ will go in a Drive location we control, decided in Phase 8.
-## 8. Completed: [x] Step 1 link received · [x] access check · [x] Phase 2 Creator Profile questions complete → docs/CREATOR_BRAND_PROFILE.md v0.1 · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
+## 8. Completed: [x] Step 1 link received · [x] access check · [x] Phase 3 Content & Platform strategy complete · [x] Phase 2 Creator Profile questions complete → docs/CREATOR_BRAND_PROFILE.md v0.1 · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
