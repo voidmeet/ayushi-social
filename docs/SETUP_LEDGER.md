@@ -9,6 +9,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Language: **Gujarati + Hinglish mix** (approved 2026-11-24, on Claude's recommendation). Spoken Gujarati is kept as-is, never translated or reworded. On-screen text leans Hinglish with Gujarati words and phrases for identity.
 - Caption script (approved 2026-11-24): **body captions in English transliteration**; **Gujarati script only for short "hero" text** (titles, festive lines). Requires a Gujarati-capable font (e.g. Noto Sans/Serif Gujarati, Hind Vadodara, Mukta Vaani; OFL-licensed) and a render test for conjuncts/matras.
 - Brand personality (approved "for now", 2026-11-24, revisit after first drafts): **"Warm, playful Gujju girl with effortless style."**
+- Aesthetic (approved 2026-11-24): **content-type-adaptive under one identity**. Vlogs = relatable, soft-cinematic, natural tones. Dance/garba/concerts = energetic, cinematic, beat-synced, richer festive colour. Fashion/occasions = elegant/glamorous, clean type, slower polished motion. Fonts, palette and caption style are constant across all.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
