@@ -23,7 +23,8 @@
 | Black-frame detection | ✅ 0 black segments |
 | Loudness (EBU R128) | ✅ measured: −14.0 LUFS integrated, LRA 4.0, **true peak +0.1 dBFS → would clip; needs limiter at −1 dBTP** |
 | Scene detection | ✅ 1 scene / 10.8 s, ~530 fps analysis speed |
-| faster-whisper transcription | ❌ **BLOCKED**: huggingface.co (model download) refused by session network policy |
+| faster-whisper transcription | ✅ after network update: `small` int8 on CPU, 10.8 s clip in 3.8 s (incl. load). Clip is mostly music: 1 short segment, language guess `en` p=0.39 (low confidence, as expected for music). Real Gujarati speech still to test with `large-v3`. |
+| PyAV 19 vs faster-whisper 1.2.1 | ⚠️ incompatible (`metadata_errors` kwarg). Workaround adopted: **decode audio with FFmpeg → 16 kHz PCM numpy → Whisper** (FFmpeg is our single decoder anyway). |
 
 ## Findings that shape the pipeline
 1. Phone clips may be low-resolution (this one is 576 px wide); flag for upscale/quality warning before 1080p export.
@@ -32,5 +33,5 @@
 4. First frame must already show the hook (thumbnail rule), enforced by HyperFrames check.
 
 ## Blocked / next
-- Allow **huggingface.co** (+ its CDN host) in the environment network policy so Whisper models can download, or vendor models another way.
+- ✅ Network updated (user-approved): huggingface.co, cdn-lfs.huggingface.co, us.aws.cdn.hf.co, cas-server/cas-bridge/transfer.xethub.hf.co, www.youtube.com, i.ytimg.com. Use `HF_HUB_DISABLE_XET=1`.
 - Test Drive connector with a 100 MB+ MOV.
