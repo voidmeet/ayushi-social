@@ -9,3 +9,4 @@ edits/*/out/
 edits/*/.hyperframes/
 assets/fonts/NotoColorEmoji.ttf
 edits/*/assets/fonts/NotoColorEmoji.ttf
+__pycache__/
