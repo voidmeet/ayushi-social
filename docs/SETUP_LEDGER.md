@@ -40,6 +40,9 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - **E001 v2 rendered** (beat-locked to Mixkit "Old Letter", slow-mo, speed ramps, SFX, rewind intro, loop outro, write-on type). QC passed. Sent in chat. Awaiting review.
 - Music policy update (2026-11-24): user permits Bollywood/Hollywood/Tollywood music. Agreed workflow: cut edits to the exact film/pop song (song audio used only for internal beat/timing analysis + review previews); published version uses the platform's in-app licensed audio at a specified start timestamp (avoids muting/claims, adds audio-page reach). No ripping from YouTube (ToS + bot block).
 - E001 song candidates (YouTube Data API, views 2026-11-24): Preet Re (Dhadak 2) 87M; Nafrat 43M; Barsaat Lagdi Ae 14M; Sirf Tum (Oct 2026) 6.5M; Naal Naal Ve (Oct 2026) 5.7M.
+- User wants a production-grade demo (won't post as-is) and offered unlicensed music download sites → declined (piracy/malware risk). Chosen option C: licensed Mixkit track now, swap to Preet Re when the user uploads their own file.
+- Deeper YouTube reference scraping (spoofed browser request) was blocked by the safety classifier; reference video study now depends on user screen recordings.
+- E001 v3: Mixkit "India" tempo-matched, cinematic media-treatment grade with bloom, sticker layer. Rendering.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
