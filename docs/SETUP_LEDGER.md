@@ -6,6 +6,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Inspiration: **Rajvee Gandhi (@rxjvee) CONFIRMED** as anchor reference (2026-11-24). Smaller Rajvee-like creators welcome if they fit. "Khushi" still unresolved. Shortlist: docs/research/Creator_Candidate_Shortlist.md
 - 15 candidate repos for the Phase 5 audit
 - Creator social accounts: **none exist yet** (2026-11-24). Brand name/handle to be decided later.
+- Language: **Gujarati + Hinglish mix** (approved 2026-11-24, on Claude's recommendation). Spoken Gujarati is kept as-is, never translated or reworded. On-screen text leans Hinglish with Gujarati words and phrases for identity.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
