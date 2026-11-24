@@ -1,4 +1,4 @@
-# Creator Candidate Shortlist (v1, 2026-11-24)
+# Creator Candidate Shortlist (v2, 2026-11-24)
 
 Purpose: decide which Gujarati creators to study for **editing technique** (not to copy content).
 Method: web search across listicles, analytics sites and profile snippets.
@@ -7,8 +7,14 @@ Method: web search across listicles, analytics sites and profile snippets.
 ## A. Named in the brief
 | # | Creator | Handle / URL | Niche | Evidence | Status |
 |---|---|---|---|---|---|
-| 1 | Rajvee Gandhi | instagram.com/rxjvee | Fashion, lifestyle, beauty, travel vlogs (+YouTube) | HypeAuditor ~1.28M followers, 4.33% ER (Oct 2026); described as Mumbai-born Gujarati creator | **Likely match. Needs user confirmation** |
+| 1 | Rajvee Gandhi | instagram.com/rxjvee | Fashion, lifestyle, beauty, travel vlogs (+YouTube) | HypeAuditor ~1.28M followers, 4.33% ER (Oct 2026); described as Mumbai-born Gujarati creator | ✅ **CONFIRMED by user. Anchor reference ('north star')** |
 | 2 | "Khushi" | (unresolved) | Dance? | Many Khushi accounts; none confirmed Gujarati with notable reach (e.g. @khushi__2912__ ~19K, garba in bio) | **Unresolved. Need handle** |
+
+## A2. Anchor profile: Rajvee Gandhi (what "that kind of creator" means)
+- Instagram ~1.3M (Socialveins); YouTube ~475K subs, ~26K avg views, Lifestyle & Vlog (SponsorRadar, estimates)
+- Positioning: fashion + beauty + lifestyle; known for event/occasion and festive/wedding styling; bio "Kabhi moody, Kabhi fashion" (Hinglish, playful)
+- Personal style (2020 interview): "easy and comfortable with an oomph factor"
+- Selection rule for others (user, 2026-11-24): Rajvee-like creators; **smaller creators welcome if they match** our creator's mix (dance + lifestyle + Gujarati culture + fashion/occasions)
 
 ## B. Gujarati lifestyle / fashion (closest to our creator's mix)
 | # | Creator | Handle | Notes |
@@ -18,6 +24,18 @@ Method: web search across listicles, analytics sites and profile snippets.
 | 5 | Ankita Dave | instagram.com/ankitadave_1 | Gujarati actress/model; ~5M (Tring) |
 | 6 | Aditi Mistry | instagram.com/aditimistry2607 | ~3.4M; trending dance + travel + lifestyle |
 | 7 | Nandni Thakor | instagram.com/nandnithakor2 | ~980K Gujarati creator; niche to verify |
+
+### B2. Smaller / mid-size Rajvee-like candidates (added v2, unverified)
+| Creator | Handle | Size (3rd-party) | Notes |
+|---|---|---|---|
+| Kajal Kevadiya | (verify) | ~412K | "modern Gujarati expression" (ViralPitch) |
+| Rutvi Chauhan | (verify) | ~145–165K | ViralPitch list |
+| Malvika Sheth | (verify) | ~145–165K | ViralPitch list |
+| Preeti Kapasi | (verify) | ~145–165K | ViralPitch list |
+| Nidhi Patel | (verify) | ~145–165K | ViralPitch list |
+| Jyotika Patel | (verify) | ~70K | Festive styling celebrating Gujarati culture (strong fit) |
+| Dhara Rughani | instagram.com/dhara_atara | ~28K | Surat/Ahmedabad; fashion, lifestyle, fitness |
+| Himani Bhatt | (verify) | ~15.6K | Gujarat fashion model (Heepsy, Sep 2026) |
 
 ## C. Dance / trend reels
 | # | Creator | Handle | Notes |
@@ -39,6 +57,12 @@ Method: web search across listicles, analytics sites and profile snippets.
 - Engagement checks need an allowed route (official APIs, or approved network access to analytics sites).
 
 ## Sources
+- https://socialveins.com/influencer/instagram/rxjvee
+- https://confluencr.com/influencer/rajvee-gandhi/
+- https://sponsorradar.com/channels/rxjvee
+- https://www.exhibit.tech/interviews/rajvee-gandhi-fashion-influencer/
+- https://viralpitch.co/blog/list-of-top-20-influencers-in-gujarat/
+- https://www.heepsy.com/ranking/top-lifestyle-influencers-in-ahmedabad
 - https://www.tring.co.in/influencer-marketing/gujarat-influencers
 - https://florafountain.com/top-influencers-in-ahmedabad/
 - https://en.wikipedia.org/wiki/Vishwa_Shah

@@ -3,7 +3,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 
 ## 1. Information provided
 - Raw footage parent folder: Google Drive folder link received (Step 1)
-- Inspiration creators: "Khushi", "Rajvee". Profiles NOT confirmed yet
+- Inspiration: **Rajvee Gandhi (@rxjvee) CONFIRMED** as anchor reference (2026-11-24). Smaller Rajvee-like creators welcome if they fit. "Khushi" still unresolved. Shortlist: docs/research/Creator_Candidate_Shortlist.md
 - 15 candidate repos for the Phase 5 audit
 - Creator social accounts: **none exist yet** (2026-11-24). Brand name/handle to be decided later.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
