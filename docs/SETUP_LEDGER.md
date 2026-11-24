@@ -11,6 +11,8 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Brand personality (approved "for now", 2026-11-24, revisit after first drafts): **"Warm, playful Gujju girl with effortless style."**
 - Aesthetic (approved 2026-11-24): **content-type-adaptive under one identity**. Vlogs = relatable, soft-cinematic, natural tones. Dance/garba/concerts = energetic, cinematic, beat-synced, richer festive colour. Fashion/occasions = elegant/glamorous, clean type, slower polished motion. Fonts, palette and caption style are constant across all.
 - Do-not-use list (2026-11-24): **no user-imposed creative restrictions**. Full creative freedom on styles, colours, fonts and effects. Baseline guardrails still apply from the master brief: preserve her natural appearance (no heavy beauty filters or likeness changes without permission), keep her Gujarati meaning intact, use only properly licensed music in exported files, and keep cultural content respectful.
+- Consent (2026-11-24): creator **consents** to AI analysis, transcription and editing of her footage and voice (she proposed the project).
+- Voiceover: **her own real voice only.** No synthetic or cloned voice and no likeness alteration. Workflow: each edit ships with a timed VO script; she records it; the recording is uploaded and synced into the final edit.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
@@ -48,4 +50,4 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 ## 6b. Missing: all Phase 2–3 info; video-level metadata (duration/fps/resolution) needs ffprobe in the worker
 ## 7. Awaiting approval / recorded defaults
 - DEFAULT: raw folder stays read-only (safest). GUJARATI_CREATOR_STUDIO/ will go in a Drive location we control, decided in Phase 8.
-## 8. Completed: [x] Step 1 link received · [x] access check · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
+## 8. Completed: [x] Step 1 link received · [x] access check · [x] Phase 2 Creator Profile questions complete → docs/CREATOR_BRAND_PROFILE.md v0.1 · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
