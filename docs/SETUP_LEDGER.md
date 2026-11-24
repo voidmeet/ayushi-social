@@ -16,6 +16,7 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Platforms (approved 2026-11-24): **Instagram Reels = primary; YouTube Shorts = same edits** with platform-specific safe areas and captions. TikTok excluded (banned in India). Long-form YouTube compilations deferred. Default export 1080×1920 9:16.
 - Volume (approved 2026-11-24): **4–5 Reels/week** after launch. Launch backlog target 25–40 edits (estimate; to be confirmed after footage analysis).
 - Length (accepted 2026-11-24): dance/trend 7–15s · garba/Navratri/concerts 15–30s · vlogs/outings/fashion 30–60s · >60s only for special edits.
+- Multi-edit (approved 2026-11-24): **yes**, max 2–3 edits per shoot, each with a distinct hook/story/style; space ≥1 week apart in the schedule.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
