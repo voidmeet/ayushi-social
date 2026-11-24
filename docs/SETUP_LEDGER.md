@@ -35,6 +35,9 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Footage genres (34 clips): concert, Darshan Raval Love Letters India Tour 2026 (13 clips, complete story); Navratri (8); daily life (13). Several selfie clips stored rotated 90°/180°; pipeline must correct.
 - Genre research: 8 viral concert reels (2–77M views) analysed for E001.
 - **E001 draft v1 rendered** ("He wrote us a love letter, so I wrote one back"), 24.6 s, QC passed (1080×1920/30fps, no black/frozen frames, −14.1 LUFS). Package in Drive 06_DRAFTS_FOR_REVIEW/E001_love_letters_v1 (minus videos); videos sent in chat. Awaiting review.
+- E001 v1 rejected by user (2026-11-24): "very low level editing": no hooks, no theme music, no slow-mo, no intro/outro, no sound design, weak text. Root causes logged: frames-only research missed motion/audio craft; no music source; no motion work; hand-built text instead of registry blocks.
+- Rebuild plan approved. Network: + mixkit.co, assets.mixkit.co, pixabay.com, cdn.pixabay.com, script.google.com, script.googleusercontent.com (approved). Apps Script uploader written (docs/APPS_SCRIPT_UPLOADER.md): awaiting user deployment. Drive API key extension: awaiting user.
+- **E001 v2 rendered** (beat-locked to Mixkit "Old Letter", slow-mo, speed ramps, SFX, rewind intro, loop outro, write-on type). QC passed. Sent in chat. Awaiting review.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)

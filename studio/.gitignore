@@ -10,3 +10,5 @@ edits/*/.hyperframes/
 assets/fonts/NotoColorEmoji.ttf
 edits/*/assets/fonts/NotoColorEmoji.ttf
 __pycache__/
+edits/*/assets/clips/
+edits/*/assets/mix.wav
