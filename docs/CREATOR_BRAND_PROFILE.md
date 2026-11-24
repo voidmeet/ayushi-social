@@ -20,7 +20,13 @@ _Evolving document. Brand name and handles are TBD; nothing in templates may har
 | Dance / Garba / Concerts | Energetic, cinematic, beat-synced cuts, richer festive colour |
 | Fashion / Occasions | Elegant, glamorous, clean type, slower polished motion |
 - Constant across all: font family, palette, caption style (to be designed in the Style Bible)
-- Typography (proposed): Gujarati-capable OFL fonts (Hind Vadodara / Mukta Vaani / Noto Gujarati) + a premium Latin display font. Render test required.
+- Typography: **Hind Vadodara** for Gujarati script (render-tested ✅ 2026-11-24) + **Playfair Display** as Latin display face (provisional). Mukta Vaani rejected (broken ત્ર conjunct). All fonts OFL.
+
+## Platforms & cadence
+- Instagram Reels (primary) + YouTube Shorts (same edits), 1080×1920
+- 4–5 Reels/week, posted manually by the team at suggested times (start: Mon/Wed/Fri/Sun + 1 trend slot, 7–10 pm IST)
+- Lengths: dance 7–15 s · festive/concerts 15–30 s · vlogs/fashion 30–60 s
+- Up to 2–3 distinct edits per shoot; festival calendar (next: Uttarayan, 14 Jan)
 - Brand colours: TBD (to come from the Phase 4 research and the first drafts)
 
 ## Voiceover
