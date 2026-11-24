@@ -38,6 +38,8 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - E001 v1 rejected by user (2026-11-24): "very low level editing": no hooks, no theme music, no slow-mo, no intro/outro, no sound design, weak text. Root causes logged: frames-only research missed motion/audio craft; no music source; no motion work; hand-built text instead of registry blocks.
 - Rebuild plan approved. Network: + mixkit.co, assets.mixkit.co, pixabay.com, cdn.pixabay.com, script.google.com, script.googleusercontent.com (approved). Apps Script uploader written (docs/APPS_SCRIPT_UPLOADER.md): awaiting user deployment. Drive API key extension: awaiting user.
 - **E001 v2 rendered** (beat-locked to Mixkit "Old Letter", slow-mo, speed ramps, SFX, rewind intro, loop outro, write-on type). QC passed. Sent in chat. Awaiting review.
+- Music policy update (2026-11-24): user permits Bollywood/Hollywood/Tollywood music. Agreed workflow: cut edits to the exact film/pop song (song audio used only for internal beat/timing analysis + review previews); published version uses the platform's in-app licensed audio at a specified start timestamp (avoids muting/claims, adds audio-page reach). No ripping from YouTube (ToS + bot block).
+- E001 song candidates (YouTube Data API, views 2026-11-24): Preet Re (Dhadak 2) 87M; Nafrat 43M; Barsaat Lagdi Ae 14M; Sirf Tum (Oct 2026) 6.5M; Naal Naal Ve (Oct 2026) 5.7M.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)
