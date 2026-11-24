@@ -9,17 +9,31 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 ## 2. Connections (tested 2026-11-24)
 | Connection | Status | Evidence |
 |---|---|---|
-| claude.ai Google Drive connector | ❌ Not installed | Connector list has no Google/Drive entry |
+| claude.ai Google Drive connector | ✅ Connected (2026-11-24) | Folder metadata, permissions and listings read successfully |
 | drive.google.com web page | ❌ Blocked | Session network proxy refuses the host |
 | Drive API v3 without credentials | ❌ Denied | googleapis.com returns 403 PERMISSION_DENIED |
 | GitHub voidmeet/ayushi-social | ✅ | Empty repo, branch claude/cool-ritchie-x2kj7r |
 
-## 3. Permissions: none on Drive yet. Read-only vs read/write unknown.
+## 3. Permissions
+- Raw footage folder: **READ-ONLY** (link-viewer access; canAddChildren/canEdit/canTrash = false). Folder owned by a different account than the one connected.
+- User granted standing permission (2026-11-24) to add plugins/connectors without asking. Anything that bills money still needs approval.
+
+## 3b. Raw folder inventory (2026-11-24, metadata only)
+| Subfolder | Files | Size | Types | Upload dates |
+|---|---|---|---|---|
+| Navratri 2026 | 14 videos | ~0.81 GB | 5 MOV, 9 MP4 | 2026-10-26 |
+| Daily Vlog Content | 85 videos | ~10.45 GB | 36 MOV (9.5 GB), 49 MP4 (0.9 GB) | 2026-10-28 → 2026-11-22 |
+| **Total** | **99 videos, 0 photos** | **~11.3 GB** | | |
+- No nested subfolders. Filenames are device-generated (IMG_####.MOV, UUID.mp4, PXL_…), so names carry no meaning; categories come only from the subfolder.
+- Uploaded directly by the creator's own account. Includes at least one already-edited reel ("Aayushi - Reel") and one app export ("video-output-…"). Treat these as finished edits or style references, not raw footage.
+- Largest file 2.3 GB (iPhone MOV). Worker must stream to disk, not hold files in memory.
+- Incremental automation: suitable. Stable Drive file IDs + modifiedTime + md5Checksum (Drive API) allow detecting changes and duplicates.
 ## 4. Tools: cloud Linux container, Bash, git/gh, Playwright+Chromium, web research. No Google/IG/YT/TikTok connectors.
 ## 5. Infrastructure decisions
 - FIXED: processing runs in the cloud, never depends on the user's PC
 - RECOMMENDED (onboarding): claude.ai Google Drive connector for inspection
 - RECOMMENDED (production, Phase 7): dedicated Google Cloud project + OAuth (read-only on source folder; write only to studio folders); secrets in a secrets manager
-## 6. Missing: working Drive access; all Phase 2–3 info
-## 7. Awaiting approval: how to connect Drive
-## 8. Completed: [x] Step 1 link received · [x] access check · [ ] folder inspection (steps 2–10)
+## 6. Missing: all Phase 2–3 info; video-level metadata (duration/fps/resolution) needs ffprobe in the worker
+## 7. Awaiting approval / recorded defaults
+- DEFAULT: raw folder stays read-only (safest). GUJARATI_CREATOR_STUDIO/ will go in a Drive location we control, decided in Phase 8.
+## 8. Completed: [x] Step 1 link received · [x] access check · [x] connector connected · [x] folder inspection steps 2–10 (metadata level)
