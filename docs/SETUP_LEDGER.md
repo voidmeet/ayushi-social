@@ -28,6 +28,9 @@ _Last updated: 2026-11-24 · folder ID and other private identifiers intentional
 - Drive workspace CREATED (2026-11-24): GUJARATI_CREATOR_STUDIO/ (owned by meetlearns, Editor shared to cynoimpakt) with 00–12 folders, 01_REFERENCE_LIBRARY/01–08 subfolders, and 02_RAW_INBOX/VOICEOVER_RECORDINGS. Folder ID map kept in Drive (00_ADMIN/studio_config.json), not in git. Raw folders remain read-only.
 - Known limit: connector uploads go through base64 in tool calls, fine for docs/JSON but impractical for MP4 drafts. Draft video upload path still to be solved (options: Drive API OAuth upload from the worker, or GitHub Releases).
 - Phase 4 batch 1 (2026-11-24): 1,354 candidates → 105 screened → **89 verified & analysed** (16 rejected). Gaps: garba 31, concerts 35, lifestyle 21, aesthetics 19, dance 5. Reports v0.1: Editing_Style_Bible, Top_50_Editing_Techniques, Gujarati_Creator_Trend_Report, Reference_Research_Summary (docs/research/). YouTube full metadata blocked by bot check (not bypassed) → propose free YouTube Data API key. Instagram blocked/login-gated → user-shared links.
+- YouTube Data API key: user added as env network secret (www.googleapis.com, header X-Goog-Api-Key, path /youtube/v3/). ✅ Tested.
+- Phase 4 batch 2: **134 verified references total** (dance 40, garba 20, concerts 16, lifestyle 27, aesthetics 31); gap 66. Master sheet re-uploaded (old one renamed "superseded", not deleted).
+- Drive connector **file-reference uploads from disk work** (81 KB CSV ✅). Candidate route for draft MP4s; size limit still to test.
 - Strategy: content-first. Build a backlog of finished, ready-to-post edits before launch so posting can be regular from day one.
 
 ## 2. Connections (tested 2026-11-24)

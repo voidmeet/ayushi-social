@@ -54,7 +54,7 @@ def main(out):
     sel = json.loads((out / "selected.json").read_text())
     tiles = []
     for n, r in enumerate(sel, 1):
-        r["ref_no"] = n
+        r.setdefault("ref_no", n); n = r["ref_no"]
         imgs = []
         for name in ["frame0", "hq1", "hq2", "hq3"]:
             p = fd / f"{r['id']}_{name}.jpg"

@@ -1,4 +1,23 @@
-# Reference Research Summary: Batch 1 (2026-11-24)
+# Reference Research Summary: Batches 1–2 (2026-11-24)
+
+## Batch 2 update (YouTube Data API)
+- Free YouTube Data API key added (environment network secret, scoped to www.googleapis.com/youtube/v3/; value never seen by Claude).
+- All batch-1 rows enriched with **upload date, likes, comments, duration** (105/105).
+- 33 targeted gap searches (region IN, ≤90 s, since 2024) → 1,347 candidates → 853 vertical after filters → 50 hand-picked by title → visual review: **45 kept, 5 rejected** (child, off-brief Western/concept content).
+
+| Category | Batch 1 | Batch 2 | **Total verified** | Target | Gap |
+|---|---|---|---|---|---|
+| 01 Dance | 35 | 5 | **40** | 40 | 0 ✅ |
+| 02 Garba / Navratri | 9 | 11 | **20** | 40 | 20 |
+| 03 Concerts / Events | 5 | 11 | **16** | 40 | 24 |
+| 04 Lifestyle / Vlog | 19 | 8 | **27** | 40 | 13 |
+| 05 Aesthetics / Fashion | 21 | 10 | **31** | 40 | 9 |
+| **Total** | 89 | 45 | **134** | 200 | **66** |
+
+29 references rated 5/5 fit. New standout techniques from batch 2: ultra-wide low 360 ghagra spin (GCR-114), dandiya-stick transition trigger (GCR-121), garba dupatta hack (GCR-119), GRWM bookend (open on final look, GCR-120), GRWM ending at the venue (GCR-129), star-on-stage + own reaction intercut (GCR-128), ceremony-labelled wedding lookbook (GCR-145), Uttarayan kite-festival vlog (GCR-138).
+
+---
+## Batch 1 (original report)
 
 ## Honest status
 | Metric | Count |
